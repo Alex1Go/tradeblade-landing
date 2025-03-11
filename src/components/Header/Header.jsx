@@ -5,21 +5,20 @@ import {
   Burger,
   Button,
   HeaderContainer,
-    Logo,
   Svg,
   NavLinks,
   StyledLink,
+  SvgOpen,
 } from './Header.styles';
 
 const HeaderBlock = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <HeaderContainer>
-      <Logo>
-        <Svg>
-          <use href={`${sprite}#icon-logo`}></use>
-        </Svg>
-      </Logo>
+      <Svg>
+        <use href={`${sprite}#icon-Frame-21067`}></use>
+      </Svg>
+
       <NavLinks isOpen={isOpen}>
         <StyledLink href="#stats">ЦИФРЫ</StyledLink>
         <StyledLink href="#deals">СДЕЛКИ ОНЛАЙН</StyledLink>
@@ -34,9 +33,9 @@ const HeaderBlock = () => {
         </AuthButtons>
       </NavLinks>
       <Burger onClick={() => setIsOpen(!isOpen)}>
-        <span />
-        <span />
-        <span />
+        <SvgOpen>
+          <use href={`${sprite}#icon-Group-21046`}></use>
+        </SvgOpen>
       </Burger>
     </HeaderContainer>
   );

@@ -18,6 +18,7 @@ const GlobalStyles = createGlobalStyle`
     background-color: ${globalColor.colorBody};
     color: ${globalColor.colorWhite};
     scroll-behavior: smooth;
+     width: 100%;
   }
 
   a {
@@ -38,17 +39,11 @@ const GlobalStyles = createGlobalStyle`
     color: inherit;
   }
 `;
-export const Container = styled.div`
-  @media screen and (min-width: 320px) {
-    width: 100%;
-    padding: 0 20px;
-    margin: 0 auto;
-  }
 
-  @media screen and (min-width: 375px) {
-    width: 375px;
-    padding: 0 16px;
-  }
+export const Container = styled.div`
+  width: 375px;
+  margin: 0 auto;
+  padding: 0 16px;
 
   @media screen and (min-width: 1440px) {
     width: 1440px;

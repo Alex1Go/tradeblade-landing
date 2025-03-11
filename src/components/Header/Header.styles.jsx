@@ -6,23 +6,22 @@ export const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   color: ${globalColor.colorWhite};
   position: relative;
 `;
 
-export const Logo = styled.div`
- 
-`;
-
 export const Svg = styled.svg`
-  @media screen and (min-width: 320px) {
+  width: 107px;
+  height: 52px;
+  /* @media screen and (min-width: 320px) {
     width: 107px;
     height: 52px;
-  }
+  } */
 
-  @media screen and (min-width: 375px) {
-  }
+  /* @media screen and (max-width: 1339px) {
+    width: 107px;
+    height: 52px;
+  } */
 
   @media screen and (min-width: 1440px) {
     width: 132px;
@@ -34,16 +33,15 @@ export const NavLinks = styled.nav`
   display: flex;
   gap: 20px;
 
-  @media (max-width: 768px) {
-    display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')};
+  @media (max-width: 1339px) {
     flex-direction: column;
     position: absolute;
     top: 60px;
-    right: 0;
-    background: #673ab7;
+    right: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+    background: rgba(0, 0, 0, 0.9);
     width: 200px;
     padding: 20px;
-    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease;
   }
 `;
 
@@ -75,18 +73,13 @@ export const Button = styled.button`
 `;
 
 export const Burger = styled.div`
-  display: none;
-  flex-direction: column;
-  gap: 5px;
+  @media (min-width: 1440px) {
+    display: none;
+  }
+`;
+export const SvgOpen = styled.svg`
+  fill: #fff;
+  width: 23px;
+  height: 15px;
   cursor: pointer;
-
-  span {
-    width: 25px;
-    height: 3px;
-    background: white;
-  }
-
-  @media (max-width: 768px) {
-    display: flex;
-  }
 `;
