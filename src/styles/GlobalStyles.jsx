@@ -7,7 +7,6 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
   }
 
   body {
@@ -39,11 +38,15 @@ const GlobalStyles = createGlobalStyle`
     color: inherit;
   }
 `;
-
+export const ContWrapper = styled.div`
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+`;
 export const Container = styled.div`
   width: 375px;
-  margin: 0 auto;
   padding: 0 16px;
+  margin: 0 auto;
 
   @media screen and (min-width: 1440px) {
     width: 1440px;

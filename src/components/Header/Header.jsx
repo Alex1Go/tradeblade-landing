@@ -12,7 +12,7 @@ import {
   SvgClose,
   Overlay,
   DesktopAuthButtons,
-} from './Header.styles';
+} from './Header.styled';
 
 const HeaderBlock = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,10 +25,7 @@ const HeaderBlock = () => {
       <Svg>
         <use href={`${sprite}#icon-Frame-21067`}></use>
       </Svg>
-
-      {/* Затемненный фон при открытии меню */}
       {isOpen && <Overlay onClick={closeMenu} />}
-
       <NavLinks isOpen={isOpen}>
         <SvgClose onClick={closeMenu}>
           <use href={`${sprite}#icon-Frame-18`}></use>

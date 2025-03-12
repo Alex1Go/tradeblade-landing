@@ -1,14 +1,24 @@
+import About from '../components/About/About.jsx';
+import Deals from '../components/Deals/Deals.jsx';
 import HeaderBlock from '../components/Header/Header.jsx';
 import Hero from '../components/Hero/Hero.jsx';
-import { Container } from '../styles/GlobalStyles.jsx';
+import Stats from '../components/Stats/Stats.jsx';
+import { Container, ContWrapper } from '../styles/GlobalStyles.jsx';
 
 const HomePage = () => {
   return (
     <>
-      <Container>
-        <HeaderBlock />
-        <Hero />
-      </Container>
+      <ContWrapper>
+        <Container>
+          <HeaderBlock />
+          <Hero />
+        </Container>
+        <Stats />
+        <Container>
+          <Deals />
+        </Container>
+        <About />
+      </ContWrapper>
     </>
   );
 };

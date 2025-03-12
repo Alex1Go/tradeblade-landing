@@ -10,6 +10,9 @@ import {
   TradeCard,
   TradeBox,
   TradeText,
+  Position,
+  TradeTitle,
+  DescText,
 } from './Hero.styled';
 
 const Hero = () => {
@@ -17,22 +20,14 @@ const Hero = () => {
     <HeroSection>
       <TradeCard>
         <TradeBox dashed>
-          <TradeText>
-            ETH/USDT
-            <br />
-            Short
-            <br />
-            +141%
-          </TradeText>
+          <TradeTitle>ETH/USDT</TradeTitle>
+          <Position>Short</Position>
+          <TradeText>+141%</TradeText>
         </TradeBox>
         <TradeBox>
-          <TradeText>
-            ETH/USDT
-            <br />
-            Short
-            <br />
-            +116%
-          </TradeText>
+          <TradeTitle>ETH/USDT</TradeTitle>
+          <Position>Short</Position>
+          <TradeText>+116%</TradeText>
         </TradeBox>
       </TradeCard>
       <HeroContent>
@@ -45,7 +40,7 @@ const Hero = () => {
           <Input type="email" placeholder="ВАШ E-MAIL" />
           <Button>НАЧАТЬ</Button>
         </Form>
-        <p>3 дня бесплатного использования</p>
+        <DescText>3 дня бесплатного использования</DescText>
       </HeroContent>
     </HeroSection>
   );
