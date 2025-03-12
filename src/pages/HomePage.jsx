@@ -1,5 +1,6 @@
 import About from '../components/About/About.jsx';
 import Deals from '../components/Deals/Deals.jsx';
+import Footer from '../components/Footer/Footer.jsx';
 import HeaderBlock from '../components/Header/Header.jsx';
 import Hero from '../components/Hero/Hero.jsx';
 import Stats from '../components/Stats/Stats.jsx';
@@ -18,6 +19,9 @@ const HomePage = () => {
           <Deals />
         </Container>
         <About />
+        <Container>
+          <Footer />
+        </Container>
       </ContWrapper>
     </>
   );
