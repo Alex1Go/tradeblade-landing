@@ -31,16 +31,16 @@ const Hero = () => {
         </TradeBox>
       </TradeCard>
       <HeroContent>
-        <Title>МОМЕНТАЛЬНО КОПИРУЙ СДЕЛКИ ПРОФИ ТРЕЙДЕРОВ</Title>
+        <Title>INSTANTLY COPY PRO TRADES OF PRO TRADERS</Title>
         <Description>
-          Начни копировать сделки с успешной командой профессиональных трейдеров
-          в автоматическом режиме.
+          Start copying trades with a successful team of professional traders
+in automatic mode.
         </Description>
         <Form>
           <Input type="email" placeholder="ВАШ E-MAIL" />
-          <Button>НАЧАТЬ</Button>
+          <Button>BEGIN</Button>
         </Form>
-        <DescText>3 дня бесплатного использования</DescText>
+        <DescText>3 days free use</DescText>
       </HeroContent>
     </HeroSection>
   );

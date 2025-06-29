@@ -16,25 +16,25 @@ const Footer = () => {
   return (
     <FooterSection>
       <NavBox>
-        <NavTitle>Быстрая навигация</NavTitle>
+        <NavTitle>Quick navigation</NavTitle>
         <List>
           <FootItem>
-            <Link href="#stats">ЦИФРЫ</Link>
+            <Link href="#stats">NUMBERS</Link>
           </FootItem>
           <FootItem>
-            <Link href="#deals">СДЕЛКИ ОНЛАЙН</Link>
+            <Link href="#deals">ONLINE DEALS</Link>
           </FootItem>
           <FootItem>
-            <Link href="#about">О КОМПАНИИ</Link>
+            <Link href="#about">ABOUT THE COMPANY</Link>
           </FootItem>
           <FootItem>
-            <Link href="#how-to-start">TRADEBLAD ЭТО</Link>
+            <Link href="#how-to-start">TRADEBLAD IS IT</Link>
           </FootItem>
           <FootItem>
-            <Link href="#tariffs">КАК НАЧАТЬ</Link>
+            <Link href="#tariffs">HOW TO GET STARTED</Link>
           </FootItem>
           <FootItem>
-            <Link href="#reviews">ТАРИФЫ</Link>
+            <Link href="#reviews">RATES</Link>
           </FootItem>
           <FootItem>
             <Link href="#faq">FAQ</Link>

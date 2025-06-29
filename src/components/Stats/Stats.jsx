@@ -17,20 +17,20 @@ const Stats = () => {
       <Trap></Trap>
       <StatsContainer>
         <div>
-          <Title>ЦИФРЫ</Title>
-          <Subtitle>Сентябрь 2022</Subtitle>
+          <Title>NUMBERS</Title>
+          <Subtitle>September 2022</Subtitle>
         </div>
         <StatsGrid>
           <StatItem>
-            <StatLabel>ТОРГОВОЙ ПРИБЫЛИ</StatLabel>
+            <StatLabel>TRADING PROFIT</StatLabel>
             <StatValue>2756%</StatValue>
           </StatItem>
           <StatItem>
-            <StatLabel>ФЬЮЧЕРСНЫХ И СПОТОВЫХ СДЕЛОК</StatLabel>
+            <StatLabel>FUTURES AND SPOT TRANSACTIONS</StatLabel>
             <StatValue>67</StatValue>
           </StatItem>
           <StatItem>
-            <StatLabel>ПРИБЫЛЬ ПОДПИСЧИКОВ</StatLabel>
+            <StatLabel>SUBSCRIBERS' PROFIT</StatLabel>
             <StatValue>375000</StatValue>
           </StatItem>
         </StatsGrid>

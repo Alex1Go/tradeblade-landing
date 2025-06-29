@@ -38,10 +38,12 @@ export const NavLinks = styled.nav`
   right: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
   background: ${globalColor.colorPurple};
   width: 375px;
+  height: 100vh;
   padding: 84px 16px 16px 16px;
   transition: right 0.3s ease;
   gap: 32px;
   z-index: 10;
+  
 
   @media (min-width: 1440px) {
     position: static;
@@ -83,7 +85,7 @@ export const StyledLink = styled(NavLink)`
 `;
 
 export const AuthButtons = styled.div`
-  margin-top: 113px;
+  margin-top: auto;
   display: flex;
   gap: 16px;
 

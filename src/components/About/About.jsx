@@ -18,24 +18,21 @@ const About = () => {
       <AboutContainer>
         <Trap></Trap>
         <TextBox>
-          <Title>О компании</Title>
+          <Title>About the company</Title>
           <TextAbout>
-            Мы опытная команда, для которой трейдинг – профессия. TradeBlade
-            является авторизованным официальным брокером биржи Binance.
+            We are an experienced team for whom trading is a profession. TradeBlade is an authorized official broker of the Binance exchange.
           </TextAbout>
           <TextAbout>
-            Он представляет пользователям множество преимуществ, таких как более
-            високая скорость синхронизации API и возможность создать учетную
-            запись Binance через платформу TradeBlade всего в 1 клик.
+            It provides users with many benefits such as faster API sync speeds and the ability to create a Binance account through the TradeBlade platform with just 1 click.
           </TextAbout>
         </TextBox>
         <Form>
           <TitleForm>
-            Попробуйте сейчас и получите
-            <br /> 5 дней бесплатного пользования
+            Try it now and get it
+            <br /> 5 days free
           </TitleForm>
-          <Input type="email" placeholder="ВАШ E-MAIL" />
-          <Button>Пoпробовать</Button>
+          <Input type="email" placeholder="E-MAIL" />
+          <Button>Try it</Button>
         </Form>
       </AboutContainer>
     </AboutSection>

@@ -31,34 +31,34 @@ const HeaderBlock = () => {
           <use href={`${sprite}#icon-Frame-18`}></use>
         </SvgClose>
         <StyledLink href="#stats" onClick={closeMenu}>
-          ЦИФРЫ
+          NUMBERS
         </StyledLink>
         <StyledLink href="#deals" onClick={closeMenu}>
-          СДЕЛКИ ОНЛАЙН
+          ONLINE DEALS
         </StyledLink>
         <StyledLink href="#about" onClick={closeMenu}>
-          О КОМПАНИИ
+          ABOUT THE COMPANY
         </StyledLink>
         <StyledLink href="#how-to-start" onClick={closeMenu}>
-          КАК НАЧАТЬ
+          HOW TO GET STARTED
         </StyledLink>
         <StyledLink href="#tariffs" onClick={closeMenu}>
-          ТАРИФЫ
+          RATES
         </StyledLink>
         <StyledLink href="#reviews" onClick={closeMenu}>
-          ОТЗЫВЫ
+          REVIEWS
         </StyledLink>
         <StyledLink href="#faq" onClick={closeMenu}>
           FAQ
         </StyledLink>
         <AuthButtons>
-          <Button primary>РЕГИСТРАЦИЯ</Button>
-          <Button>ВОЙТИ</Button>
+          <Button primary>REGISTRATION</Button>
+          <Button>LOG IN</Button>
         </AuthButtons>
       </NavLinks>
       <DesktopAuthButtons>
-        <Button>ВХОД</Button>
-        <Button primary>РЕГИСТРАЦИЯ</Button>
+        <Button>LOG IN</Button>
+        <Button primary>REGISTRATION</Button>
       </DesktopAuthButtons>
       <Burger onClick={toggleMenu}>
         <SvgOpen>
